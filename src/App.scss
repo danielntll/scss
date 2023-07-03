@@ -1,0 +1,9 @@
+body {
+  margin: toRem($margin);
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 50vh;
+  background-color: $background-color;
+  color : $text-color
+}

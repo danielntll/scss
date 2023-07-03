@@ -1,0 +1,6 @@
+$border-radius: 16px;
+$border-radius-light: 8px;
+
+@mixin border($borderColor: $color-primary) {
+  border: 2px solid $borderColor;
+}
