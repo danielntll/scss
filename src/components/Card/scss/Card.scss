@@ -1,0 +1,21 @@
+.Card {
+  background-color: $color-primary;
+  min-height: 300px;
+  border-radius: $border-radius;
+  padding: $containerPadding;
+  .Card__header {
+    display: flex;
+    flex-direction: column;
+
+    .Card__header__title {
+    }
+    .Card__header__subtitle {
+    }
+  }
+  .Card__content__container {
+    .Card__content__text {
+    }
+    .Card__content__actions {
+    }
+  }
+}

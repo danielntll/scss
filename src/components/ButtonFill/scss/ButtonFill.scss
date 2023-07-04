@@ -1,0 +1,29 @@
+%button__fill {
+  @extend %button__md; //---> variables / containerSpaces
+  @extend %button__display; // ----> layout/displays
+  border-radius: $border-radius;
+
+  .ButtonFill__text {
+    margin: 0px;
+    padding: 0 10px;
+  }
+  .ButtonFill__icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.ButtonFill-primary {
+  @include fillContainer($color-primary, $color-primary-contrast);
+  @extend %button__fill;
+}
+
+.ButtonFill-secondary {
+  @include fillContainer($color-secondary, $color-secondary-contrast);
+  @extend %button__fill;
+}
+
+.ButtonFill-tertiary {
+  @include fillContainer($color-tertiary, $color-tertiary-contrast);
+  @extend %button__fill;
+}
